@@ -7,7 +7,7 @@ mongoose.set('strictQuery', false)
 const DBConnection = async () => {
     try {
         const { connection } = await mongoose.connect(
-           "mongodb+srv://Aman1234:q8gcmTxz3VQYBFIX@cluster0.wtp7hor.mongodb.net/Cluster0?retryWrites=true&w=majority"
+           // Mongo_String
         );
         if (connection) {
             console.log('yes DB is connected', connection.host);
